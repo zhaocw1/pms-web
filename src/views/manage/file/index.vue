@@ -1,7 +1,7 @@
 <template>
   <div class="app-container">
     <el-form :model="queryParams" ref="queryForm" size="small" :inline="true" v-show="showSearch" label-width="90px">
-      <el-form-item label="项目名称" prop="projectName">
+      <el-form-item label="文件名称" prop="projectName">
         <el-input
           v-model="queryParams.projectName"
           placeholder="请输入项目名称"
